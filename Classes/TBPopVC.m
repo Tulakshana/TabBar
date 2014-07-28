@@ -28,7 +28,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    //Uncomment this code to see that the tab selection colour disappearing
+    /*Uncomment this code to see the tab bar selection colour disappearing. This a bug in iOS7
+    Steps to reproduce
+     1. Uncomment the below code
+     2. Run the app
+     3. Select the right tab
+     4. Tap on POP
+     5. Tap on Done
+    */
 //    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hello" message:@"Test message" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
 //    [alert show];
 }
